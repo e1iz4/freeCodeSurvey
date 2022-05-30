@@ -114,9 +114,3 @@ input[type="text"], input[type="number"], input[type="email"] {
   margin : 0 auto;
   text-align : center;
 }
-
-@media (max-width :800px){
-  body {
-    width:50%;
-  }
-}
