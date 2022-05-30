@@ -1,0 +1,116 @@
+
+body {
+  background :#bf98e2 url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg) no-repeat top;
+/* background images:
+
+https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg 
+
+https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?cs=srgb&dl=pexels-pixabay-270360.jpg&fm=jpg
+
+*/
+  
+}
+
+header {
+  background-color : #310f31;
+  /* colors #080880, 57018c, #bf98e2, f163bbd1, f1b4b4, 310f31, f175c2d1, #f5d4d4, #4e2d4e,  */
+  text-align : center;
+  color : #f1b4b4;
+  border : 0.5px hidden  ;
+  border-radius : 7px;
+  opacity : 0.998;
+  margin : auto;
+  font-family : narrow, sans serif;
+  width : 95%;
+  max-width : 800px;
+  }
+
+h1, p {
+  text-align : center;
+  vertical-align : center;
+  }
+
+h1 {
+  padding-top : 10px;
+  font-size : 30px !important;
+}
+
+p {
+  padding-top : 1px;
+  margin-top : 0;
+  padding-bottom : 10px;
+}
+
+#title {
+  font-size : 25px;
+}
+
+main {
+  margin : 50px 10px 10px 10px;
+  background-color : #310f31;
+  color : #f5d4d4;
+  border-radius : 7px;
+  opacity : 0.998;
+  font-family : sans serif;
+  width : 95%;
+  max-width : 800px;
+  margin : auto;
+}
+
+form {
+  padding : 20px 50px;
+}
+
+fieldset {
+  border : hidden;
+}
+
+label {
+  display : block;
+  margin-top : 10px;
+  margin-bottom : 10px;
+  padding-bottom : 0px;
+  font-size : 20px;
+}
+
+input, select, textarea {
+  display : inline;
+  background-color : #f378c4d1;
+  color : #310f31;
+  font-size : 17px;
+  padding : 10px;
+  border : hidden;
+  border-radius : 4px;
+}
+
+select{
+  width : 100%;
+  margin-top : 15px;
+}
+
+input {
+  vertical-align : middle; 
+}
+
+input::placeholder, textarea::placeholder {
+  color : #4e2d4e;
+  font-family : sans serif;
+}
+
+textarea {
+  overflow : scroll;
+  width : 100%;
+  margin-top : 15px;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  width : 100%;
+  margin-top : 15px;
+}
+
+#submit {
+  display : block !important;
+  width : 70px;
+  margin : 0 auto;
+  text-align : center;
+}

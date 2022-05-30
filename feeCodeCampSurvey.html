@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>freeCodeCamp Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="freeCodeCamp.css">
+    </head>
+    <body>
+
+      <header>
+        <h1 id="title">freeCodeCamp User Survey</h1>
+        <p id="description">Please share your opinion to help us improve!</p>
+        </header>
+
+      <main>
+        <form id="survey-form" action="https://register-demo.freecodecamp.org">
+
+         <fieldset> <label id="name-label">Name: <input id="name" type="text" placeholder="Please enter your name" required></label>
+         </fieldset>
+
+         <fieldset> <label id="email-label">Email: <input id="email" type="email" placeholder="Please enter your email" required></label>
+         </fieldset>
+
+          <fieldset>
+            <label id="number-label">Age: <input id="number" type="number" min="0" max="120" placeholder="Age"></label>
+            </fieldset>
+
+          <fieldset> <label id="dropdown-label">How would you describe your current position? <select id="dropdown">
+            <option value=""> Please Select You current Position
+              </option>
+            <option value="1">Student</option>
+            <option value="2">Part-Time Worker</option>
+            <option value="3">Full-Time Worker</option>
+            <option value="4">Full-Time Learner</option> 
+            <option value="5">Prefer not to say</option>
+            <option vlaue="6">Other</option>
+            </select>
+              </label>
+              </fieldset>
+
+            <fieldset> <label id="goals-label">Which of these best decribes your goals for using freeCodeCamp?</label>
+              <label><input type="checkbox" name="goals" value="1"> Learn a new skill</label>
+              <label><input type="checkbox" name="goals" value="2"> Supplement your school curriculum</label>
+              <label><input type="checkbox" name="goals" value="3"> Gain new opportunies in your current job</label>
+              <label><input type="checkbox" name="goals" value="4"> Gain new opportunies for a future job</label>
+              <label><input type="checkbox" name="goals" value="5"> Gain the knowledge for a passion project</label>
+              <label><input type="checkbox" name="goals" value="6"> Other</label>
+              </fieldset>
+
+          <fieldset>
+          <label id="how-long-label">How long have you been using freeCodeCamp? <select id="how-long">
+            <option value="">Please Select The Duration Of Your Usage</option>
+            <option value="1">Less than 1 month</option>
+            <option value="2">1-3 months</option>
+            <option value="3">3-6 months</option>
+            <option value="4">6-12 months</option>
+            <option value="5">1-2 years</option>
+            <option value="6">More than 2 years</option>
+            </select>
+          </label>
+          </fieldset>
+
+              <fieldset>
+              <label id="rating-label">How would your rate your experience using freeCodeCamp thusfar?</label> 
+              <label><input type="radio" name="rating" value="5"> 5 (Excellent)</label>
+              <label><input type="radio" name="rating" value="4"> 4 (Good)</label>
+              <label><input type="radio" name="rating" value="3"> 3 (Satisfactory)</label>
+              <label><input type="radio" name="rating" value="2"> 2 (Needs Improvement)</label>
+              <label><input type="radio" name="rating" value="1"> 1 (Unsatisfactory)</label>
+              </fieldset>
+
+              <fieldset>
+                <label id="reason-label">Please Provide an Explaination for Your Rating
+                <textarea placeholder="Please Explain the reasoning behind your rating" rows="5"></textarea>
+                </label>
+                </fieldset>
+
+              <fieldset>
+                <label id="likely-label">How likely are you to recomend freeCodeCamp to a friend?</label>
+                <label><input type="radio" name="likely" value="6"> Very Likely</label>
+                <label><input type="radio" name="likely" value="5"> Likely</label>
+                <label><input type="radio" name="likely" value="4"> Somewhat Likely</label>
+                <label><input type="radio" name="likely" value="3"> Somewhat Unlikely</label>
+                <label><input type="radio" name="likely" value="2"> Unlikely</label>
+                <label><input type="radio" name="likely" value="1"> Very Unlikely</label>     
+                </fieldset>
+
+              <fieldset>
+                <label id="comments-label">Did you have any additional comments for suggestions for imporovements?
+                <textarea id="comments" placeholder="Any additional opinions?" rows="5"></textarea>
+                </label>
+                </fieldset>
+
+              <input id="submit" type="submit">
+          </form>
+        </main>
+    </body>
+  </html>
