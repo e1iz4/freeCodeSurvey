@@ -123,8 +123,9 @@ input[type="text"], input[type="number"], input[type="email"] {
   }
   #sumbit {
     display : block !important;
-    width : 10vw;
+    min-width : 20vw;
     margin : 0 auto;
     text-align : center;
+    padding : 0px !important;
   }
 }
