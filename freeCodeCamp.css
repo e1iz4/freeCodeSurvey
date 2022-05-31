@@ -121,4 +121,11 @@ input[type="text"], input[type="number"], input[type="email"] {
   body {
     height : 100vh;
   }
+  #sumbit {
+    display : block !important;
+    width : 70px;
+    margin : 0 auto;
+    text-align : center;
+    padding : 0px !important;
+  }
 }
