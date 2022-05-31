@@ -124,5 +124,7 @@ input[type="text"], input[type="number"], input[type="email"] {
   
   #submit {
     webkit-appearance: none;
+    moz-appearance: none;
+    appearance: none;
   }
 }
