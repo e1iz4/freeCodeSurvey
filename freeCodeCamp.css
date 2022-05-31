@@ -1,6 +1,6 @@
 
 body {
-  height : 100vh;
+  height : 100%;
   overflow : scroll;
   background : #bf98e2 url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg) no-repeat top;
 /* background images:
@@ -115,4 +115,10 @@ input[type="text"], input[type="number"], input[type="email"] {
   width : 70px;
   margin : 0 auto;
   text-align : center;
+}
+
+@media (min-width : 800px) {
+  body {
+    height : 100vh;
+  }
 }
