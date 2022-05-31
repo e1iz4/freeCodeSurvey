@@ -2,7 +2,8 @@
 body {
   height : 100%;
   overflow : scroll;
-  background :#bf98e2 url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg) 100% no-repeat top;
+  background-size : 100%;
+  background : #bf98e2 url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg) no-repeat top;
 /* background images:
 
 https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg 
