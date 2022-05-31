@@ -1,5 +1,6 @@
 
 body {
+  overflow : hidden;
   background :#bf98e2 url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=pexels-pixabay-220072.jpg&fm=jpg) no-repeat top;
 /* background images:
 
