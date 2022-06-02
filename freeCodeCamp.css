@@ -113,8 +113,8 @@ input[type="text"], input[type="number"], input[type="email"] {
 #submit {
   display : flex !important;
   justify-content : center !important;
-  width : 50px !important;
-  max-width : 50px !importnat;
+  width : 70px !important;
+  max-width : 70px !importnat;
   margin : 0px auto !important;  
   text-align : center !important;
   -webkit-appearance: none !important;
