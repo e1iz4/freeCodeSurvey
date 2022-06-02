@@ -113,7 +113,7 @@ input[type="text"], input[type="number"], input[type="email"] {
 #submit {
   display : block !important;
   width : 70px;
-  margin : 0 auto;
+  margin : auto;
   text-align : center;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
@@ -122,5 +122,5 @@ input[type="text"], input[type="number"], input[type="email"] {
 
 @media (min-width : 800px) {
   body {
-    height : 
+    height : 100vh;
 }
