@@ -114,6 +114,7 @@ input[type="text"], input[type="number"], input[type="email"] {
   display : block !important;
   width : 70px;
   margin : auto;
+  padding : auto;
   text-align : center;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
@@ -123,4 +124,5 @@ input[type="text"], input[type="number"], input[type="email"] {
 @media (min-width : 800px) {
   body {
     height : 100vh;
+  }
 }
