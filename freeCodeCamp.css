@@ -121,7 +121,7 @@ input[type="text"], input[type="number"], input[type="email"] {
   -appearance: none !important;
 }
 
-@media (min-width : 800px){
+@media (mix-width : 800px){
   body {
 	  height : 100vh !important;
 	}
