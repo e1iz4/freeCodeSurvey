@@ -115,16 +115,12 @@ input[type="text"], input[type="number"], input[type="email"] {
   width : 70px;
   margin : 0 auto;
   text-align : center;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -appearance: none !important;
 }
 
 @media (min-width : 800px) {
   body {
-    height : 100vh;
-  }
-  
-  #submit {
-    -webkit-appearance: none !important;
-    -moz-appearance: none !important;
-    -appearance: none !important;
-  }
+    height : 
 }
